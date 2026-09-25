@@ -1,18 +1,32 @@
 {
   "name": "@pipeworx/mcp-uselessfacts",
-  "version": "1.0.0",
-  "description": "MCP server for random useless facts",
+  "version": "1.0.1",
+  "description": "Uselessfacts MCP — wraps uselessfacts.jsph.pl API (free, no auth)",
+  "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
-  "files": ["src"],
-  "scripts": {
-    "build": "tsc",
-    "check": "tsc --noEmit"
+  "bin": {
+    "mcp-uselessfacts": "bin/cli.js"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "uselessfacts"],
-  "author": "Pipeworx",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-uselessfacts.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-9ae88194373bc189422277d1bd3fe037d971728e2da4e95e4e3cc430e15d1949",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
   }
 }
