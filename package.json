@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-uselessfacts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Uselessfacts MCP — wraps uselessfacts.jsph.pl API (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-9ae88194373bc189422277d1bd3fe037d971728e2da4e95e4e3cc430e15d1949",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-d4b3bdb7f1d3fbbfc517ceb07d76eb14bb7b39f7d3dce893dfbafe840722fb20",
+    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
   }
 }
