@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/uselessfacts",
   "title": "Uselessfacts",
   "description": "Uselessfacts MCP — wraps uselessfacts.jsph.pl API (free, no auth)",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "websiteUrl": "https://pipeworx.io/packs/uselessfacts",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-uselessfacts",

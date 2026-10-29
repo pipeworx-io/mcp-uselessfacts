@@ -1,0 +1,18 @@
+[
+  {
+    "name": "random_fact",
+    "description": "Return one random trivia fact in English from the Useless Facts API at uselessfacts.jsph.pl. Returns the fact text with its id, the attributed source name, source URL, and a permalink. Use it for an amusing filler fact, an icebreaker line, or a fact-of-the-moment prompt.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "today_fact",
+    "description": "Get today's useless fact of the day.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
