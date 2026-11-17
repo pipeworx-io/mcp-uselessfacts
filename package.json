@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-uselessfacts",
-  "version": "1.1.1",
-  "description": "Uselessfacts MCP — wraps uselessfacts.jsph.pl API (free, no auth)",
+  "version": "1.1.2",
+  "description": "Unofficial Uselessfacts MCP — wraps uselessfacts.jsph.pl API (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "uselessfacts",
     "gatewaySlug": "uselessfacts",
-    "sourceHash": "v1-ebab65e8d1bb38880402c29a67e0d6dac54006674a6af8ad63ae59cae9ad3b4a",
-    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
+    "sourceHash": "v1-542783e9e8aaf2764f1a1534fc6384e1fadfb6975258f9fd624631775df02635",
+    "sourceCommit": "6e7ae693219a515a7ee6dd88d02390ab290fbad3"
   }
 }
